@@ -1,0 +1,14 @@
+Patron title;
+Grupo grupo;
+
+void setup() {
+  size (800, 800);
+  title = new Patron();
+  grupo = new Grupo(10,10);
+}
+
+int t = 0;
+void draw() {
+  background(255);
+  grupo.Draw();
+}
